@@ -30,6 +30,7 @@
     self.collectionView.backgroundColor = [UIColor clearColor];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
     [self.view insertSubview:self.collectionView atIndex:0];
+    [NSNotificationCenter]
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 9;
